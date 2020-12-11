@@ -3,10 +3,10 @@ import glob
 import shutil
 import re
 
-# THIS SCRIPT WILL try to find out crucial data from keywords and would save the data into logs.txt
-# THIS SCRIPT WILL COPY all jpg files to the folder
+# THIS SCRIPT WILL COPY LINE OF KEYWORDS MATCH FROM *.TXT FILES INTO LOG.TXT FILE 
+# THIS SCRIPT WILL COPY ALL JPG FILES TO A FOLDER
 # THIS SCRIPT WILL COPY DATA FROM DIRECTORY C TO D
-# If same name files are found it would be replaced
+# IF SAME FILES ARE FOUND THEN IT WOULD BE REPLACED
 
 keywords=['aadhar','pan','ecard']
 
